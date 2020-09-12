@@ -16,7 +16,7 @@
 
 Looked at various relationships between factors within dataset. Below are some highlight visuals that highlight the analysis:
 
-![alt text] (https://github.com/jzcharia/telcom-churn/blob/master/EDA%20Images/ChurnFrequency.png "Churn Frequency")
+![alt text](https://github.com/jzcharia/telcom-churn/blob/master/EDA%20Images/ChurnFrequency.png "Churn Frequency")
 
 ## Model Buidling
 
