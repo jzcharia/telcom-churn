@@ -17,10 +17,16 @@
 Looked at various relationships between factors within dataset. Below are some highlight visuals that highlight the analysis:
 
 ![alt text](https://github.com/jzcharia/telcom-churn/blob/master/EDA%20Images/ChurnFrequency.png "Churn Frequency")
+![alt text](https://github.com/jzcharia/telcom-churn/blob/master/EDA%20Images/CorrMatrix.png "Correlation Matrix")
+![alt text](https://github.com/jzcharia/telcom-churn/blob/master/EDA%20Images/CustomerTenure.png "Customer Tenure")
+![alt text](https://github.com/jzcharia/telcom-churn/blob/master/EDA%20Images/MonthlyCharges.png "Monthly Charges")
 
 ## Model Buidling
 
-
+Built three models:
+ 1. **Decision Tree**- baseline model and decision trees are very easy to explain
+ 2. **Stochastic Gradient Descent**- powerful modeling technique but did not generalize well with the dataset. Model was overfitting. 
+ 3. **
 
 # Future Improvements
  * **Feature Engineering -** the sample was not great. The data was sourced from Bangladesh which has a population that does not represent the USA. Specifically, we can see that in the dataset when looking at obesity and genital thrush rates. 
