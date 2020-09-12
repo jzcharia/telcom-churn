@@ -26,13 +26,13 @@ Looked at various relationships between factors within dataset. Below are some h
 Built three models:
  1. **Decision Tree**- baseline model and decision trees are very easy to explain
  2. **Stochastic Gradient Descent**- powerful modeling technique but did not generalize well with the dataset. Model was overfitting. 
- 3. **
+ 3. **Linear Support Vector** - best model with 80 percent accuracy. 
 
 # Future Improvements
- * **Feature Engineering -** the sample was not great. The data was sourced from Bangladesh which has a population that does not represent the USA. Specifically, we can see that in the dataset when looking at obesity and genital thrush rates. 
- * **Build API using Flask -** the web application is pretty plain. It allows you to answer some questions and it returns a prediction. Additional features to be added:
-    1. A window to show actual probablity of event.
-    2. A submit button -- currently it updates every time a change is made
-    3. Resources for diabetes help to come up when the prediction is yes
- * **Class Imbalance-** options for at high risk or low risk would be a great way to show more subtly to the app. This can be based on probability or a new dataset to train for that. 
+ * **Feature Engineering -** there were features that could have been engineered to potentially create a better predictor. Ideas included:
+   1. **Family** - if they were partnered and had kids, this probably means they were a family unit.
+   2. **Count of Services** - self explainatory but amount of services (TV, phone, internet...)
+   3. **Average cost of services** - amount of services/monthly charges
+ * **Build API using Flask -** Pickle the model and create an endpoint API that programs can call and utilize
+ * **Class Imbalance-** the target variable has a pretty evident class imbalance so techniques like downsampling or upweighting 
 
