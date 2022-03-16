@@ -34,5 +34,5 @@ Built three models:
    2. **Count of Services** - self explainatory but amount of services (TV, phone, internet...)
    3. **Average cost of services** - amount of services/monthly charges
  * **Build API using Flask -** Pickle the model and create an endpoint API that programs can call and utilize
- * **Class Imbalance-** the target variable has a pretty evident class imbalance so techniques like downsampling or upweighting could be beneficial
+ * **Class Imbalance-** the target variable has a pretty evident class imbalance so techniques like upweighting could be beneficial
 
